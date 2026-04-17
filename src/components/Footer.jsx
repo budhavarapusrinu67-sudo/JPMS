@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Briefcase, Twitter, Linkedin, Facebook, Instagram } from 'lucide-react';
+import { Briefcase, Globe, Mail, MessageCircle, Link as LinkIcon } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -16,10 +16,10 @@ const Footer = () => {
               Connecting top talent with the best opportunities globally. Join our platform to accelerate your career or find perfect candidates.
             </p>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              <a href="#" className="btn-icon"><Twitter size={20} /></a>
-              <a href="#" className="btn-icon"><Linkedin size={20} /></a>
-              <a href="#" className="btn-icon"><Facebook size={20} /></a>
-              <a href="#" className="btn-icon"><Instagram size={20} /></a>
+              <a href="#" className="btn-icon"><Globe size={20} /></a>
+              <a href="#" className="btn-icon"><Mail size={20} /></a>
+              <a href="#" className="btn-icon"><MessageCircle size={20} /></a>
+              <a href="#" className="btn-icon"><LinkIcon size={20} /></a>
             </div>
           </div>
           
